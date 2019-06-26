@@ -17,7 +17,7 @@ var customer=[
 
 ];
 resp.send(customers);
-}
+};
 app.get('/customers',customerController);
 
 var server=app.listen(8088,function()
